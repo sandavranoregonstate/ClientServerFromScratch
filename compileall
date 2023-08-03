@@ -1,0 +1,6 @@
+#!/bin/bash
+gcc -o enc_server enc_server.c code.c server_version_abstract.c
+gcc -o enc_client enc_client.c client_version_abstract.c
+gcc -o dec_server dec_server.c code.c server_version_abstract.c
+gcc -o dec_client dec_client.c client_version_abstract.c
+gcc -o keygen keygen.c 
